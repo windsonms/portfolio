@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windson Martins - Serviços</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css">
+    <link rel="stylesheet" href="css/swap.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/boostrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/media_query.css">
+</head>
+<body>
+    <div class="site_content">
+        <!-- ====================================== Preloader ===================================== -->
+        <div class="wrapper">
+            <div id="loader-wrapper">
+                <div id="loader">
+                    <svg viewBox="0 0 1320 300">
+                        <text x="50%" y="50%" dy=".35em" text-anchor="middle">Serviços </text>
+                    </svg>
+                </div>
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+        </div>
+        <!-- ====================================== Preloader End ===================================== -->
+        <!-- ====================================== Cursor ===================================== -->
+        <div class="cursor"></div>
+        <!-- ====================================== Cursor End ===================================== -->
+        <div class="row home-content-row">
+            <!-- ====================================== Section Fix Image ===================================== -->
+            <div class="col-xxl-5 col-lg-5 col-md-5  col-12  olivia-left-fixed-image p-0 position-relative">
+                <div class="olivia-home-image" data-aos="fade-right">
+                    <div id="particles-js"></div>
+                    <!-- ============================ Dark Light Mode ======================= -->
+                    <div class=ul-header id="ul-header1">
+                        <div class="mode" onclick=myFunction() title="Toggle Mode">
+                            <div class=icon-container>
+                                <i id=sunIcon class="fa-solid fa-sun fa-spin icon"></i>
+                                <i id=moonIcon class="fa-solid fa-moon icon hidden"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- =========================== Dark Light End ========================== -->
+                    <div class="social-menu">
+                        <ul>
+                            <!-- <li>
+                                <a href=https://www.facebook.com target=blank>
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=https://www.instagram.com target=blank>
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=https://in.linkedin.com target=blank>
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li> -->
+                            <li>
+                                <a href=https://wa.me/+5577991444100 target=blank>
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- ====================================== Section Fix Image End ===================================== -->
+            <!-- ====================================== Section Contain Menu ===================================== -->
+            <div class="col-12 col-md-12 col-lg-7 col-xxl-7 salva-home-content dark-home-content p-0">
+                <header>
+                    <div class="navbar navbar-light">
+                        <div class="logo navbar-brand">
+                            <a href=index.html><img src=images/logo.png alt=logo></a>
+                            <div class="ul-header ul-header2">
+                                <div class="mode" onclick=myFunction() title="Toggle Mode">
+                                    <div class=icon-container>
+                                        <i id=sunIcon2 class="fa-solid fa-sun fa-spin"></i>
+                                        <i id=moonIcon2 class="fa-solid fa-moon icon hidden"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=bnt-navbar>
+                            <a class="menu-touch menu" data-toggle=collapse href=#multiCollapseExample1 role=button
+                                aria-expanded=false>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class=drop-menu>
+                            <nav class=menu-content>
+                                <a href=index.html><img class="logo-menu-img" src="images/logo.png"
+                                        alt="logo"></a>
+                                <ul class="navbar-side" id=navbarSide>
+                                    <li class="btn-clique home_page">
+                                        <img class="menu_icons" src="images/home_icon.svg"
+                                            alt="home_icon">
+                                        <a class=item-menu href=index.html>Home</a>
+                                    </li>
+                                    <li class=btn-clique>
+                                        <img class="menu_icons" src="images/about_icon.svg"
+                                            alt="about_icon">
+                                        <a class=item-menu href=about.html>Sobre mim</a>
+                                    </li>
+                                    <li class=btn-clique>
+                                        <img class="menu_icons" src="images/resume_icon.svg"
+                                            alt="resume_icon">
+                                        <a class=item-menu href=resume.html>Formação</a>
+                                    </li>
+                                    <li class=btn-clique>
+                                        <img class="menu_icons" src="images/services_icon.svg"
+                                            alt="services_icon">
+                                        <a class=item-menu href=services.html>Serviços</a>
+                                    </li>
+                                    <li class="bnt-pj btn-clique">
+                                        <img class="menu_icons" src="images/skills_icon.svg"
+                                            alt="skills_icon">
+                                        <a class=item-menu href=skills.html>Habilidades</a>
+                                    </li>
+                                    <li class=btn-clique>
+                                        <img class="menu_icons" src="images/portfolio_icon.svg"
+                                            alt="portfolio_icon">
+                                        <a class=item-menu href=portfolio.html>Portfolio</a>
+                                    </li>
+                                    <li class=btn-clique>
+                                        <img class="menu_icons" src="images/testimonial_icon.svg"
+                                            alt="testimonial_icon">
+                                        <a class=item-menu href=testimonials.html>Depoimentos</a>
+                                    </li>
+                                    <!-- <li class=btn-clique>
+                                        <img class="menu_icons" src="images/blog_icon.svg"
+                                            alt="blog_icon">
+                                        <a class=item-menu href=blog.html>Blog</a>
+                                    </li> -->
+                                    <li class=btn-clique>
+                                        <img class="menu_icons" src="images/contact_icon.svg"
+                                            alt="contact_icon">
+                                        <a class=item-menu href=contact.html>Contato</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+                <div class="contan_main2">
+                    <section class="oliva-intro tabcontent">
+                        <div class="intro_main">
+                            <h2 class="intro" data-aos="fade-up">Meus Serviços</h2>
+                        </div>
+                        <h2 class="moswa" data-aos="fade-up">Transformando ideias em soluções digitais com precisão e propósito
+                        </h2>
+                        <h3 class="passionate" data-aos="fade-up">Unindo tecnologia e criatividade para desenvolver sistemas web, plataformas corporativas e interfaces intuitivas.
+                            Cada projeto é uma oportunidade de transformar processos complexos em experiências digitais simples, funcionais e escaláveis.
+                        </h3>
+                        <div class="services_box_main">
+                            <div class="service_box" data-aos="zoom-in">
+                                <img class="services_icon" src="images/ux.png" alt="ux">
+                                <h3 class="ui_ux">Ui/Ux Design</h3>
+                                <h4 class="ui_sub_text">Criação de interfaces funcionais e atraentes, com foco na experiência do usuário.
+                                    Prototipagem em Figma, princípios de design responsivo e usabilidade moderna.
+                                </h4>
+                            </div>
+                            <div class="service_box" data-aos="zoom-in">
+                                <img class="services_icon" src="images/android.png" alt="android">
+                                <h3 class="ui_ux">Desenvolvimento Web</h3>
+                                <h4 class="ui_sub_text">Desenvolvimento front-end e back-end utilizando Vue.js, React, AdonisJS, PHP e Node.js.
+                                    Entrega de sistemas performáticos, seguros e escaláveis para diferentes setores.
+                                </h4>
+                            </div>
+                            <div class="service_box" data-aos="zoom-in">
+                                <img class="services_icon" src="images/web.png" alt="web">
+                                <h3 class="ui_ux">Desenvolvimento de Aplicações</h3>
+                                <h4 class="ui_sub_text">Criação de aplicativos web e mobile com React Native e APIs RESTful, integrando bancos de dados MySQL e Oracle.
+                                    Soluções otimizadas para performance e integração com serviços externos.
+                                </h4>
+                            </div>
+                            <div class="service_box" data-aos="zoom-in">
+                                <img class="services_icon" src="images/marketing.png" alt="marketing">
+                                <h3 class="ui_ux">Integrações & DevOps</h3>
+                                <h4 class="ui_sub_text">Integração de APIs corporativas, sistemas hospitalares e e-commerces.
+                                    Versionamento com Git/GitHub, testes, automação e deploy contínuo em ambientes produtivos.
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="pricing_group">
+                            <div class="intro_main">
+                                <h2 class="intro" data-aos="fade-up">Serviços</h2>
+                            </div>
+                            <h2 class="moswa" data-aos="fade-up">Meus Planos de Desenvolvimento</h2>
+                            <div class="plan_box" data-aos="zoom-in">
+                                <div class="plan_box_sub">
+                                    <div>
+                                        <h3 class="basic_plain">Plano Essencial</h3>
+                                        <h4 class="per_month"><span class="plan_price">R$ 1.200</span>/ Por Projeto</h4>
+                                    </div>
+                                    <button class="download_cv buy_now"
+                                        onClick="window.open('\contact.html');">
+                                        <img class="shopping_bag" src="images/shopping_bag.png"
+                                            alt="shopping_bag">contratar agora
+                                    </button>
+                                </div>
+                                <h5 class="build">Ideal para sites institucionais, landing pages e pequenos sistemas.</span>
+                                </h5>
+                                <div class="plan_box_sub2">
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Desenvolvimento Web Responsivo (HTML, CSS, JS, PHP)</h3>
+                                    </div>
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Otimização de performance e SEO básico</h3>
+                                    </div>
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Hospedagem e configuração inicial</h3>
+                                    </div>
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev decline">Suporte por 15 dias após entrega</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="plan_box" id="plan_box" data-aos="zoom-in">
+                                <div class="plan_box_sub">
+                                    <div>
+                                        <h3 class="basic_plain">Plano Profissional</h3>
+                                        <h4 class="per_month"><span class="plan_price">R$ 2.700</span>/ Por Projeto</h4>
+                                    </div>
+                                    <button class="download_cv buy_now"
+                                        onClick="window.open('\contact.html');">
+                                        <img class="shopping_bag" src="images/shopping_bag.png"
+                                            alt="shopping_bag">Contratar Agora
+                                    </button>
+                                </div>
+                                <h5 class="build">Para sistemas mais complexos, portais e aplicações com painéis administrativos.</span>
+                                </h5>
+                                <div class="plan_box_sub2">
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Desenvolvimento front-end e back-end completo</h3>
+                                    </div>
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Utilização de frameworks modernos e arquitetura escalável</h3>
+                                    </div>
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Banco de dados relacional e integrações com APIs externas</h3>
+                                    </div>
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Sistema de autenticação e painel administrativo customizado</h3>
+                                    </div>
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Otimização de performance e boas práticas de segurança</h3>
+                                    </div>
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Suporte por 30 dias após entrega</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="plan_box" id="plan_box2" data-aos="zoom-in">
+                                <div class="plan_box_sub">
+                                    <div>
+                                        <h3 class="basic_plain">Plano Avançado</h3>
+                                        <h4 class="per_month"><span class="plan_price">R$ 4.500</span>/ Por Projeto</h4>
+                                    </div>
+                                    <button class="download_cv buy_now"
+                                        onClick="window.open('\contact.html');">
+                                        <img class="shopping_bag" src="images/shopping_bag.png"
+                                            alt="shopping_bag">Contratar Agora
+                                    </button>
+                                </div>
+                                <h5 class="build">Voltado para sistemas completos, multiusuário e de alta performance.</span>
+                                </h5>
+                                <div class="plan_box_sub2">
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Front-end com Vue.js / ReactJS + TailwindCSS</h3>
+                                    </div>
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Mobile Development</h3>
+                                    </div>
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Integrações complexas (pagamentos, APIs, ERPs, etc.)</h3>
+                                    </div>
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Deploy automatizado e versionamento com Git/GitHub</h3>
+                                    </div>
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Painel de gestão customizado e relatórios dinâmicos</h3>
+                                    </div>
+                                    <div class="web-dev_main">
+                                        <img src="images/check.png" alt="check">
+                                        <h3 class="web-dev">Suporte técnico por 60 dias</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- ====================================== Section Contain Menu End ===================================== -->
+                <!-- ====================================== Footer Section ===================================== -->
+                <footer class=olivia-footer-wrap>
+                    <p class=olivia-copyright-content>© Windson Martins 2025. All rights reserved by
+                        <a href=mailto:codeverus@gmail.com class=b-text
+                            target=_blank>VerusCode.
+                        </a>
+                    </p>
+                </footer>
+                <!-- ====================================== Footer Section End ===================================== -->
+            </div>
+        </div>
+    </div>
+    <script src="javascript/jquery.min.js"></script>
+    <script src="javascript/cursor.js"></script>
+    <script src="javascript/aos.js"></script>
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+    <script src="javascript/slick.min.js"></script>
+    <script src="javascript/spider_animation/spider_animation.js"></script>
+    <script src="javascript/script.js"></script>
+    <script>
+        AOS.init({
+            duration: 1600,
+            container: '.scroll-container',
+        })
+        $(window).on("scroll", function () {
+            AOS.init();
+        });
+    </script>
+</body>
+
+</html>
