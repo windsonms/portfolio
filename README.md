@@ -2,7 +2,7 @@
 
 Meu portfólio Simples profissional desenvolvido em HTML, CSS e JavaScript, contendo minhas principais informações, habilidades, experiências e projetos.
 
-🔗 **Acesse o site:** https://windsonms.github.io/portfolio/
+
 
 ---
 
